@@ -1,0 +1,41 @@
+
+/* 
+    Created on : 19 sept 2023, 19:26:18
+    Author     : josep
+*/
+
+#encabezado{
+    color:blueviolet;
+    font-weight: bold;
+}
+#tituloPrincipal{
+    color:aquamarine;
+}
+
+.parrafosCentrados{
+    text-align: center;
+    font-weight: bold;
+    color:blueviolet;
+}
+.textoverde{
+    color:green;
+}
+a:link{
+    background-color: green;
+    color:white;
+}
+a:hover{
+    background-color: violet;
+    color:azure;
+}
+a:active{
+    background-color: red;
+    color:white;
+}
+
+p:nth-child(odd){
+    background-color: cadetblue;
+}
+p:nth-child(even){
+    background-color: darksalmon;
+}
