@@ -18,5 +18,4 @@ public interface CategoriaService {
     
     public void delete(Categoria categoria);
     
-    public List<Categoria> getCategoriaPorDescripcion(String descripcion);
 }

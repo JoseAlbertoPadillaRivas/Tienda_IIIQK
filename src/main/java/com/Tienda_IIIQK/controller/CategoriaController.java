@@ -24,7 +24,7 @@ public class CategoriaController {
     public String inicio(Model model) {
 
         //List<Categoria> listadoCategorias = categoriaService.getCategorias(false);
-        List<Categoria> listadoCategorias = categoriaService.getCategoriaPorDescripcion("pad");
+        List<Categoria> listadoCategorias = categoriaService.getCategorias(true);
 
         model.addAttribute("categorias", listadoCategorias);//para la vista mando desde el controlador con el model todas las categorias
         model.addAttribute("totalCategorias", listadoCategorias.size());//para la vista mando la cantidad de categorias desde el controlador con el model
